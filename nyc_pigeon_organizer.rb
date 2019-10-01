@@ -13,10 +13,10 @@ def nyc_pigeon_organizer(data)
         
         if !new_hash[pigeon][key]
           new_hash[pigeon][key] =[]
-        else
+        end
         
           new_hash[pigeon][key] << descriptor.to_s
-        end
+        
         
       end
     end
